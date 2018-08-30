@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.smartbasket.register"
+    android:background="@drawable/register"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/uname"
+        android:layout_alignLeft="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginBottom="55dp"
+        android:text="Your Name"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/uname"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_below="@+id/uname"
+        android:layout_marginTop="30dp"
+        android:text="Your Email"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtemail"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/email"
+            android:hint="Email"
+            android:inputType="text|textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Details"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/email"
+        android:layout_alignLeft="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/mob"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtphone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/mob"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+    <TextView
+        android:id="@+id/txtpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/mob"
+        android:layout_alignLeft="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/txtpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/rpass"
+            android:hint="Enter Password"
+            android:inputType="textPersonName|textPassword"
+            android:textColor="@android:color/black"
+            android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtcpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/pass"
+        android:layout_alignLeft="@+id/uname"
+        android:layout_alignStart="@+id/uname"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/cpass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:hint="Enter Confirm Password"
+        android:inputType="textPersonName|textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:layout_below="@+id/txtcpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/cpass"/>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/cpass"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="Register"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>

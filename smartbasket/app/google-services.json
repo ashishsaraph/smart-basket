@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "908872864621",
+    "firebase_url": "https://smartbasket-390d1.firebaseio.com",
+    "project_id": "smartbasket-390d1",
+    "storage_bucket": "smartbasket-390d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908872864621:android:0597dabff1204fff",
+        "android_client_info": {
+          "package_name": "com.example.ashish.smartbasket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908872864621-kddvdhsa02trup619cuiol66lvb635g7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ashish.smartbasket",
+            "certificate_hash": "fecf25a404753e83d4f87af2f42333ca59930bed"
+          }
+        },
+        {
+          "client_id": "908872864621-n785huf5poc3gjghfk9vduj4mlpqrsqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgnBlp8T6aKx24jV6jIB_E9fDMOMBTJK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908872864621-n785huf5poc3gjghfk9vduj4mlpqrsqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

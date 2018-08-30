@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashish.customer.logincustomer"
+    android:background="@drawable/t2"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/r1">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_above="@+id/uname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="19dp"
+            app:srcCompat="@drawable/logo3" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="39dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/e1"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textColorHint="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/login"
+            android:layout_alignLeft="@+id/uname"
+            android:layout_alignStart="@+id/uname"
+            android:layout_marginBottom="65dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/pass"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/register"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="50dp"
+            android:background="@color/colorAccent"
+            android:text="LOGIN"
+
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/fgpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/register"
+            android:layout_centerHorizontal="true"
+            android:text="Forgot password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:text="Register Here."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="30dp"
+            />
+
+
+        -<LinearLayout
+        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
+
